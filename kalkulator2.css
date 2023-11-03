@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(209, 228, 254), rgb(230, 249, 254));
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 20px 20px;
+  } 
+
+.judul{
+    text-align: left;
+    margin: 10px 100px;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.child-tittle {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.calculator {
+    width: 300px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: rgb(58, 68, 79);
+    border: 2px solid #3d3c3c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(252, 252, 252);
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#display {
+    font-size: 50px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 150px;
+    background-color: rgb(58, 68, 79);
+    border: #f9f9f9;
+    font-weight: bold;
+    color: white;
+}
+
+.buttons {
+    display: block;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+
+}
+
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(58, 68, 79);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: -6px -10px 20px rgba(70, 79, 90);
+    height: 70px;
+    font-style: normal;
+    width: 70px;
+    height: 70px;
+}

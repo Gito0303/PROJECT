@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.activity-container {
+    border: 1px solid #ccc; /* Untuk menambahkan garis tepi */
+    padding: 20px; /* Untuk menambahkan ruang di sekitar elemen-elemen */
+    border-radius: 5px; /* Untuk sudut yang lebih lembut */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.title {
+    background-color: rgb(28, 104, 205);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.title-list {
+    background-color: rgb(39, 181, 117);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.sub-title{
+    padding: 10px 50px;
+    text-align: left;
+}
+
+.app-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.add-activity input {
+    padding: 10px;
+    width: 70%;
+}
+
+.add-activity button {
+    padding: 10px 35px;
+    background-color: #018436;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.list-activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-activities li {
+    margin: 10px 0;
+}
+
+.list-activities li button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.list-activities li button.edit-button {
+    background-color: green;
+}
+
+.list-activities li input {
+    width: 70%;
+}
+
+.delete-button{
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+.edit-button{
+    border-radius: 5px;
+    padding: 7px 13px;
+}

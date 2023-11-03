@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kalkulator2.css">
+</head>
+<body>
+    <div class="page">
+        <div class="judul">
+            <div class="title">
+                <h1>CALCULATOR</h1>
+            </div>
+            <div class="child-tittle">
+                <h2>Using HTML, CSS and JS</h2>
+            </div>
+        </div>
+        <div class="calculator">
+            <input type="text" id="display" readonly>
+            <div class="buttons">
+                <div>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="clearInput()">C</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="clearLastEntry()">CE</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('/')">/</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('**')">^</button>
+                </div>
+                <div>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('1')">1</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('2')">2</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('3')">3</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('*')">*</button>
+                </div>
+                <div>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('4')">4</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('5')">5</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('6')">6</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('-')">-</button>
+                </div>
+                <div>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('7')">7</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('8')">8</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('9')">9</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('+')">+</button>
+                </div>
+                <div>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('.')">.</button>
+                    <button id="others" style="color: rgb(161, 170, 182);" onclick="appendToDisplay('0')">0</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="appendToDisplay('%')">%</button>
+                    <button id="others" style="color: rgb(82, 186, 166);" onclick="calculateResult()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="kalkulator2.js"></script>
+</body>
+</html>
